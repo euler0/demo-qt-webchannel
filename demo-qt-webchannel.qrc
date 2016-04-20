@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Chart.min.js</file>
+        <file>index.html</file>
+    </qresource>
+</RCC>
