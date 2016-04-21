@@ -49,6 +49,7 @@ MainWindow::MainWindow(QWidget *parent)
     QWebChannel *webChannel = new QWebChannel(this);
     chartView->setWebChannel(webChannel);
 
+    // Objects must be registered before any client is initialized
     ChartDataSource *dataSource = new ChartDataSource(this);
     webChannel->registerObject(QStringLiteral("dataSource"), dataSource);
     connect(regenerateButton, SIGNAL(clicked()), dataSource, SLOT(generateRandomData()));
