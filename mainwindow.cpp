@@ -24,6 +24,10 @@
  */
 
 #include "mainwindow.h"
+#include <QPushButton>
+#include <QVBoxLayout>
+#include <QWebChannel>
+#include <QWebEngineView>
 #include "chartdatasource.h"
 #include "chartview.h"
 

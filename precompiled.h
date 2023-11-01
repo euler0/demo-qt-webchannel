@@ -23,7 +23,11 @@
  * SUCH DAMAGE.
  */
 
-#include <QtCore>
-#include <QtGui>
-#include <QtWebChannel>
-#include <QtWebEngineWidgets>
+#include <QMainWindow>
+#include <QObject>
+#include <QPushButton>
+#include <QVBoxLayout>
+#include <QVariantList>
+#include <QWebChannel>
+#include <QWebEnginePage>
+#include <QWebEngineView>

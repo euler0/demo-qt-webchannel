@@ -6,5 +6,5 @@ This project demonstrates how to transparently access between a Qt object and an
 
 ## References
 
-* [QWebChannel Class](http://doc.qt.io/qt-5/qwebchannel.html)
-* [Qt WebChannel JavaScript API](http://doc.qt.io/qt-5/qtwebchannel-javascript.html)
+* [QWebChannel Class](http://doc.qt.io/qt-6/qwebchannel.html)
+* [Qt WebChannel JavaScript API](http://doc.qt.io/qt-6/qtwebchannel-javascript.html)

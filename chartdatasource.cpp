@@ -25,7 +25,7 @@
 
 #include "chartdatasource.h"
 
-ChartDataSource::ChartDataSource(QWidget *parent)
+ChartDataSource::ChartDataSource(QObject *parent)
     : QObject(parent)
 {
 }
@@ -39,7 +39,7 @@ void ChartDataSource::generateRandomData()
 {
     valueList.clear();
     for (int i = 0; i < 7; i++) {
-        valueList.append(QVariant(qrand() % 100));
+        valueList.append(QVariant(rand() % 100));
     }
     emit dataChanged(valueList);
 }

@@ -25,13 +25,16 @@
 
 #pragma once
 
+#include <QObject>
+#include <QVariantList>
+
 class ChartDataSource : public QObject {
     Q_OBJECT
 
     Q_PROPERTY(QVariantList data READ data NOTIFY dataChanged)
 
 public:
-    ChartDataSource(QWidget *parent = Q_NULLPTR);
+    ChartDataSource(QObject *parent = nullptr);
 
     QVariantList data() const;
 

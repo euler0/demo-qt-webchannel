@@ -25,9 +25,11 @@
 
 #pragma once
 
+#include <QWebEnginePage>
+
 class ChartView : public QWebEnginePage {
     Q_OBJECT
 
 public:
-    ChartView(QObject *parent = Q_NULLPTR);
+    ChartView(QObject *parent = nullptr);
 };
