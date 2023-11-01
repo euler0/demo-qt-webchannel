@@ -23,6 +23,7 @@
  * SUCH DAMAGE.
  */
 
+#include <QApplication>
 #include <QMainWindow>
 #include <QObject>
 #include <QPushButton>
